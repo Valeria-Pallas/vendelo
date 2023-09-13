@@ -21,10 +21,11 @@
     "url": "git+https://github.com/Valeria-Pallas/vendelo.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vendelo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Valeria-Pallas/vendelo/issues"
   },
-  "homepage": "https://github.com/Valeria-Pallas/vendelo#readme"
+  "homepage": "https://github.com/Valeria-Pallas/vendelo#readme",
+  "devDependencies": {}
 }
