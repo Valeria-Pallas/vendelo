@@ -26,6 +26,7 @@ module Vendelo
 
     # Allow multiquery
     config.active_record.async_query_executor = :global_thread_pool
+    config.assets.precompile += %w( tailwind.css some_other_asset.css another_asset.js )
 
     # Background job
     config.active_job.queue_adapter = :sidekiq
