@@ -1,0 +1,98 @@
+---
+fr:
+  app_name: Vendelo
+  meta_title: Achetez et vendez des produits d'occasion
+  activerecord:
+    models:
+      product: Produit
+      user: Utilisateur
+      category: Catégorie
+    attributes:
+      product:
+        title: 'Titre'
+        description: 'Description'
+        price: 'Prix'
+        photo: 'Photo'
+      user:
+        email: Adresse e-mail
+        username: Nom d'utilisateur
+        password: Mot de passe
+      category:
+        name: Nom
+  common:
+    confirm: Êtes-vous sûr ?
+    back: Retour
+    not_logged_in: Vous devez vous connecter ou créer un compte
+    not_authorized: Vous n'avez pas les autorisations pour cette action
+    not_found: Non trouvé
+  shared:
+    header:
+      add: Ajouter un produit
+      login: Connexion
+      register: S'inscrire
+      logout: Se déconnecter
+      favorites: Mes favoris
+  authentication:
+    users:
+      create:
+        created: Votre compte a été créé !
+    sessions:
+      create:
+        created: Bienvenue !
+        failed: Connexion invalide !
+      destroy:
+        destroyed: Votre session a été terminée ! À la prochaine
+  products:
+    edit:
+      title: Modifier le produit
+    new:
+      title: Ajouter un produit
+    form:
+      title_placeholder: Qu'est-ce que vous voulez vendre ?
+      description_placeholder: Pouvez-vous décrire le produit ?
+      price_placeholder: Combien ça coûte ?
+      category_placeholder: Dans quelle catégorie cela convient-il le mieux ?
+      submit: Vendez-le !
+    index:
+      title: 'Produits:'
+      all: Tous
+      min_price: Prix minimum
+      max_price: Prix maximum
+      query_text: Que recherchez-vous ?
+      expensive: Les plus chers en premier
+      cheapest: Les moins chers en premier
+      newest: Récemment ajoutés
+    show:
+      edit: Modifier le produit
+      delete: Supprimer le produit
+      view_more_products: Voir plus de produits de %{username}
+    create:
+      created: Votre produit a été créé avec succès
+    update:
+      updated: Votre produit a été mis à jour avec succès
+    destroy:
+      destroyed: Votre produit a été supprimé avec succès
+  categories:
+    category:
+      edit: Modifier
+      delete: Supprimer
+    index:
+      title: Catégories
+      new: Ajouter une catégorie
+    edit:
+      title: Modifier la catégorie
+    create:
+      created: Votre catégorie a été créée avec succès
+    update:
+      updated: Votre catégorie a été mise à jour avec succès
+    destroy:
+      destroyed: Votre catégorie a été supprimée avec succès
+    new:
+      title: Ajouter une catégorie
+  favorites:
+    index:
+      title: Mes favoris
+  user_mailer:
+    welcome:
+      subject: Bienvenue à Vendelo
+      welcome_message: Hey %{username}, bienvenue à Vendelo. Nous espérons que vous vendrez beaucoup !
